@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.banner img {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+}
+
+.profile {
+  margin-top: -70px;
+}
+
+.avatar img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.name {
+  font-size: 28px;
+  margin: 10px 0 5px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: gray;
+}
+
+.bio {
+  max-width: 600px;
+  margin: 10px auto;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.links {
+  margin: 20px 0;
+}
+
+.links a {
+  display: inline-block;
+  margin: 5px 10px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  background: #0073e6;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.links a:hover {
+  background: #005bb5;
+}
+
+.video-section {
+  margin: 40px auto;
+}
